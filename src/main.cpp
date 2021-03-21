@@ -1,7 +1,7 @@
 #include <main.h>
 
-#define EN_PIN    33  // LOW: Driver enabled. HIGH: Driver disabled
-#define STEP_PIN  27  // Step on rising edge
+#define EN_PIN    15  // LOW: Driver enabled. HIGH: Driver disabled
+#define STEP_PIN  33  // Step on rising edge
 
 #define SERIAL_PORT Serial2 // TMC2208/TMC2224 HardwareSerial port
 #define SERIAL2_TX 14
